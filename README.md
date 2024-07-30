@@ -4,16 +4,15 @@
 
 ### Project Overview
 
-The goal of this project was to practice my data cleaning and EDA skills by exploring criminal behavior throughout all 5 boroughs in New York City. The data set consists of reported crimes from the NYPD spanning January - March of 2024 and includes the type of crime, location, date, and characteristics about the perpetrator (gender, age, race). I was interested in learning about how crimes and criminals differ across the boroughs.
+The goal of this project was to practice my Python skills by exploring correlations between variables effecting air pollution in Beijing, China. The data set consists of reported temperatures, dew points, pressure, wind direction/speed, snow/rain levels, and PM2.5 concentration levels (ug/m^3) at various times between 2010 - 2014. PM2.5 is a type of air pollution maade up of very fine particles that can be harmful to human health and the environment. I was interested in learning about how these variables in the environment affected PM2.5 concentration and if the variables in the environment were correlated themselves.
 
 ### Data Sources
 
-The primary dataset used for this analysis is "NYPD_Arrest_Data__Year_to_Date_.csv" containing detailed information from data.gov on crimes that occurred in New York City between January - March of 2024.
+The primary dataset used for this analysis is "data.csv" from Kaggle.com containing detailed information on weather and environmental factors in Beijing, China between 2010 - 2014.
 
 ### Tools
 
-- BigQuery - Data Analysis
-- Tableau - Creating Report
+- Python - Data Analysis
 
 ### Data Cleaning/Preparation
 In the initial data preparation phase, I performed the following:
@@ -88,4 +87,4 @@ There were a few limitations within this data set. One limitation was that it on
 
 ### References
 
-1. [Data.gov](https://data.gov/)
+1. [Kaggle.com](https://data.gov/](https://www.kaggle.com/datasets/stealthtechnologies/preeeeeeee)
