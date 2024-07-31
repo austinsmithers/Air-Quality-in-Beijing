@@ -21,12 +21,12 @@ In the initial data preparation phase, I performed the following:
 3. Order data by "year"
 4. Removed duplicate rows.
 
-### Exploratory Data Analysis
+### Hypotheses:
 
-My EDA involved exploring the data to answer key questions:
+My data analysis involved exploring the following hypotheses:
 
-- How are temperature, presure, and dew point related?
-- What variables are correlated to air pollution in Beijing, and how are they correlated?
+1. Linear regression: Temperature, Pressure and Dew Point are linearly related. Temperature is positively correlated with Dew Point and negatively correlated with Pressure. Dew point is also negatively correlated with Pressure.
+2. Non-linear regression: PM2.5 concentration (variable measuring air pollution) will have a non-linear relationship to the remaining variables in the data set.
 
 ### Data Analysis
 
@@ -56,12 +56,12 @@ plt.show()
 ### Results/Findings
 
 The analysis results are summarized as follows:
-1. Temperature, pressure and dew point are all strongly and linearly related. As temperature and dew point increase, pressure decreases.
-2. The relationships of environmental factors with air pollution, measured as PM2.5 concentration, appear to be strong, non-linear relationships. They do not have strong correlations on the heat map, because they are not linearly correlated.
+1. Temperature, pressure and dew point are all strongly, linearly correlated. As temperature and dew point increase, pressure decreases.
+2. The correlations between environmental factors and air pollution, measured as PM2.5 concentration, appear to be strong, non-linear correlations. They do not appear to be strongly related on the heat map, because they are not linearly correlated.
 
 ### Implications/Recommendations:
 
-If this project were for the purpose of reducing pollution in Beijing, I would continue my analysis by further exploring the strong, non-linear relationships associated with PM2.5 concentration. The goal would be to determine what factor(s) most impact PM2.5 levels and then figure out how to indirectly influence these variables (via legislation, systemic change, etc.) to decrease PM2.5 levels. Determining how to influence the variables that influence PM2.5 concentration would require further analysis on these variables.
+If this project were for the purpose of reducing pollution in Beijing, I would continue my analysis by further exploring the strong, non-linear relationships associated with PM2.5 concentration. The goal would be to determine what factor(s) most impact PM2.5 levels and then figure out how to indirectly influence these variables (via legislation, systemic change, etc.) to decrease PM2.5 levels. Determining how to manipulate the environmental factors that influence PM2.5 concentration would require further analysis on these variables.
 
 ### Limitations
 
